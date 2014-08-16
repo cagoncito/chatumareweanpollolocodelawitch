@@ -63,7 +63,7 @@
       </div>
     </div>
 
-    <div id="map_canvas"></div>
+    <div id="map-container"></div>
 
     <div class="container">
 
@@ -82,7 +82,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
     <script>
       var map;
       function initialize() {
@@ -90,7 +90,7 @@
           zoom: 8,
           center: new google.maps.LatLng(-34.397, 150.644)
         };
-        map = new google.maps.Map(document.getElementById('map-canvas'),
+        map = new google.maps.Map(document.getElementById('map-container'),
             mapOptions);
       }
 

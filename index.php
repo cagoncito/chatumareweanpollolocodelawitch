@@ -64,9 +64,10 @@
 
  }
 
- footer{
+ .footer{
   color: rgba(255,255,255,0.7);
   background: #000000;
+
 
  }
 
@@ -181,10 +182,11 @@
     </script>
 
     <footer>
-      <div class="navbar navbar-fixed-bottom">
+      <div class="footer navbar-fixed-bottom">
       <div class="container">
       <div class="navbar-footer">
-        hola mundo ;) lumi mazamorrero
+        <button type="button" class="btn btn-default navbar-btn" id="entrar">Entrar</button>
+        <button type="button" class="btn btn-default navbar-btn" id="registro">Registrate</button>
       </div>
       </div>
       </div>

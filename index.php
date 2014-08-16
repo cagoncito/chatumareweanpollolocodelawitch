@@ -24,9 +24,9 @@
           height: 100%;
           float: left;
           filter: alpha(opacity=80);
-          -moz-opacity: 0.4;
-          -khtml-opacity: 0.4;
-          opacity: 0.4;
+          -moz-opacity: 0.8;
+          -khtml-opacity: 0.8;
+          opacity: 0.8;
 
         }
 

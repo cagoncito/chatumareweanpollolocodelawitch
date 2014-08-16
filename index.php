@@ -64,10 +64,10 @@
  }
 
  footer{
-  background: #ffffff;
-  position: relative;
-  width: 200px;
-  height: 75px;
+  color: rgba(255,255,255,0.7);
+  background: #000000;
+  position: fixed;
+ 
  }
 
     </style>

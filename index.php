@@ -28,7 +28,7 @@
 }
 
 .navbar-header figure{
-  width: 45em;
+  width: 45px;
 }
     </style>
 

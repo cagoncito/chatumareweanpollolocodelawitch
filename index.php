@@ -23,7 +23,7 @@
           width: 100%;
           height: 100%;
           float: left;
-          filter: alpha(opacity=10);
+          filter: alpha(opacity=80);
           -moz-opacity: 0.4;
           -khtml-opacity: 0.4;
           opacity: 0.4;

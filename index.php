@@ -32,7 +32,7 @@
 
   float: left;
   position: relative;
-  width: 46px;
+  width: 200px;
   height: 46px
 
  }

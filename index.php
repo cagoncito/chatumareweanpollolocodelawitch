@@ -23,8 +23,8 @@
             height:100%;
         }
 
-<<<<<<< HEAD
-.navbar-default {
+
+.navbar-inverse {
   margin-bottom:0;
 }
 
@@ -33,12 +33,8 @@
   float: left;
   width: 45px;
 
-}
-=======
-        .navbar-inverse {
-          margin-bottom:0;
-        }
->>>>>>> origin/master
+ }
+
     </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

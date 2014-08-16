@@ -31,7 +31,9 @@
 .navbar-header figure{
 
   float: left;
-  width: 45px;
+  position: absolute;
+  width: 46px;
+  height: 46px
 
  }
 

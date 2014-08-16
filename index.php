@@ -63,6 +63,10 @@
 
  }
 
+ footer{
+  background: #22BCE0;
+ }
+
     </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -174,7 +178,7 @@
     <footer>
       <div id="footer">
       <div class="container">
-        <p class="muted credit">Example courtesy <a href="#"> Martin Bean</a> and <a href="#">Ryan Fait</a>.</p>
+        <p class="muted credit">ejemplito 0 <a href="#"> ejemplito 1</a> and <a href="#">ejemplito 2</a>.</p>
       </div>
     </div>
     </footer>

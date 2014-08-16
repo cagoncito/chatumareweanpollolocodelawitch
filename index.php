@@ -181,12 +181,11 @@
       }
     </script>
 
-    <footer>
-      <div id="footer">
+    <footer> 
       <div class="container">
+        hollaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
         <p class="muted credit">ejemplito 0 <a href="#"> ejemplito 1</a> and <a href="#">ejemplito 2</a>.</p>
       </div>
-    </div>
     </footer>
   </body>
 </html>

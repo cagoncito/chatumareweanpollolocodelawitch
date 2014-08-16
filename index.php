@@ -123,11 +123,17 @@
       
 
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="alert alert-info fade in" role="alert">
-      <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-      <h4>Oh snap! You got an error!</h4>
-      <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
-    </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="alert alert-info fade in" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+              <h4>Oh snap! You got an error!</h4>
+              <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+            </div>
+        </div>
+      </div>
+
+      
 
     </div> <!-- /container -->
 

@@ -13,6 +13,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/main.css" rel="styleshet">
+
 
     <style type="text/css">
       body {

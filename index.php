@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/i/favicon.ico">
 
-    <title>Static Top Navbar Example for Bootstrap</title>
+    <title>Alerta pc </title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">

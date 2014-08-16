@@ -51,7 +51,7 @@
 }
  .img-logo {
   padding: 0.5em 0.1em 2em 0.1em;
-  width: 145px;
+  width: 140px;
   height: 75px;
 
  }

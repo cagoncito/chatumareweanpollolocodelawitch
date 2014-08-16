@@ -175,7 +175,7 @@
 
     <footer>
       <div id="footer">
-      <div class="container">
+      <div class="container navbar-fixed-buttom">
         <p class="muted credit">ejemplito 0 <a href="#"> ejemplito 1</a> and <a href="#">ejemplito 2</a>.</p>
       </div>
     </div>

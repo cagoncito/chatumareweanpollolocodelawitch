@@ -23,7 +23,7 @@
           width: 100%;
           height: 100%;
           float: left;
-          filter: alpha(opacity=40);
+          filter: alpha(opacity=10);
           -moz-opacity: 0.4;
           -khtml-opacity: 0.4;
           opacity: 0.4;
@@ -117,7 +117,7 @@
     </div>
 
     <div id="map-canvas"></div>
-    <div class="container">
+    <div class="container" style="position:absolute">
       
 
       <!-- Main component for a primary marketing message or call to action -->

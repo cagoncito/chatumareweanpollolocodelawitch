@@ -33,7 +33,7 @@
   float: left;
   position: relative;
   width: 200px;
-  height: 46px
+  height: 50px
 
  }
 

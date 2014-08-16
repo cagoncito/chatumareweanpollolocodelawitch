@@ -15,22 +15,6 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/main.css" rel="styleshet">
 
-
-    <style type="text/css">
-      body {
-        min-height: 2000px;
-      }
-
-      .navbar-static-top {
-        margin-bottom: 19px;
-      }
-      #map-canvas {
-        height: 100%;
-        margin: 0px;
-        padding: 0px
-      }
-    </style>
-
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

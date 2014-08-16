@@ -5,3 +5,8 @@
       .navbar-static-top {
         margin-bottom: 19px;
       }
+      #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }

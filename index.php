@@ -41,7 +41,14 @@
 
   border-right: 1px solid white;
   margin-right: 0.5em;
-  
+
+ }
+
+ .navbar-header figure #logo img{
+  margin-right: 0.5em;
+  padding-right: 0.5em;
+  width: 52px;
+
  }
 
     </style>

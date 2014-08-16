@@ -15,17 +15,17 @@
  <link href="/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
       html,body{
-    height:100%;
-}
+        height:100%;
+        }
 
-#map-canvas {
-  width:100%;
-    height:100%;
-}
+        #map-canvas {
+          width:100%;
+            height:100%;
+        }
 
-.navbar-default {
-  margin-bottom:0;
-}
+        .navbar-inverse {
+          margin-bottom:0;
+        }
     </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

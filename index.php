@@ -28,7 +28,10 @@
 }
 
 .navbar-header figure{
+
+  float: left;
   width: 45px;
+
 }
     </style>
 

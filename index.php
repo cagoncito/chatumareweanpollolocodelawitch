@@ -18,9 +18,16 @@
         height:100%;
         }
 
-        .container div #map-canvas {
-          width:100%;
-            height:100%;
+        #map-canvas {
+          background: transparent no-repeat 0 0;
+          width: 640px;
+          height: 480px;
+          float: left;
+          filter: alpha(opacity=40);
+          -moz-opacity: 0.4;
+          -khtml-opacity: 0.4;
+          opacity: 0.4;
+
         }
 
 

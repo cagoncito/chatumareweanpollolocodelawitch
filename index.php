@@ -47,7 +47,7 @@
  .navbar-header figure #logo img{
   margin-right: 0.5em;
   padding-right: 0.5em;
-  width: 52px;
+  width: 25px;
 
  }
 
@@ -67,7 +67,7 @@
       <div class="container">
         <div class="navbar-header">
           <figure id="logo">
-      <img src="logo.png" class="img-responsive" />
+      <img src="logo.png"  />
     </figure>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>

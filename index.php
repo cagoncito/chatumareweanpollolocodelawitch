@@ -172,6 +172,11 @@
     </script>
 
     <footer>
+      <div id="footer">
+      <div class="container">
+        <p class="muted credit">Example courtesy <a href="#"> Martin Bean</a> and <a href="#">Ryan Fait</a>.</p>
+      </div>
+    </div>
     </footer>
   </body>
 </html>

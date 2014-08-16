@@ -67,7 +67,7 @@
       </div>
     </div>
 
-    <div id="map-container"></div>
+    <div id="map-canvas"></div>
 
     <div class="container">
 
@@ -94,7 +94,7 @@
           zoom: 8,
           center: new google.maps.LatLng(-34.397, 150.644)
         };
-        map = new google.maps.Map(document.getElementById('map-container'),
+        map = new google.maps.Map(document.getElementById('map-canvas'),
             mapOptions);
       }
 

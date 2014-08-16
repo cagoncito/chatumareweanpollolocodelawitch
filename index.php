@@ -27,6 +27,7 @@
           -moz-opacity: 0.8;
           -khtml-opacity: 0.8;
           opacity: 0.8;
+          margin-top: 51px;
 
         }
 

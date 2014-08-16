@@ -104,9 +104,7 @@
       </div>
     </div>
 
-    <div id="map-canvas"></div>
-
-    <div class="container">
+    <div id="map-canvas" class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
@@ -143,7 +141,7 @@
 
         var mapOptions = {
           center: latlng,
-          zoom: 12
+          zoom: 20
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);

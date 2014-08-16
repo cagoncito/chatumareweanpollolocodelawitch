@@ -111,21 +111,16 @@
               </ul>
             </li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li class="active"><a href="./">Static top</a></li>
-            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-          </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
     <div id="map-canvas"></div>
-    <div class="container" style="position:absolute">
+    <div class="container" style="position:absolute;left: 79px;top: 70px;">
       
 
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron" style="z-index: 99;">
+      <div class="jumbotron">
         <h1>Hello, world!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>

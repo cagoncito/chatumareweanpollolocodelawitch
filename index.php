@@ -51,7 +51,7 @@
       <div class="container">
         <div class="navbar-header">
           <figure id="logo">
-      <img src="logo.png" />
+      <img src="logo.png" class="img-responsive" />
     </figure>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>

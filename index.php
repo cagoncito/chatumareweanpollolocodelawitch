@@ -163,6 +163,7 @@
 
         var mapOptions = {
           center: latlng,
+          mapTypeControl: true,
           zoom: 18
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),

@@ -18,17 +18,30 @@
         height:100%;
         }
 
-        #map-canvas {
-          background: transparent no-repeat 0 0;
+        #wrapper {
           width: 100%;
-          height: 100%;
-          float: left;
-          filter: alpha(opacity=80);
-          -moz-opacity: 0.8;
-          -khtml-opacity: 0.8;
-          opacity: 0.8;
-
+          background: #eee;
         }
+
+#map_canvas {
+  background: transparent no-repeat 1 1;
+  width: 100%;
+  height: 600px;
+  float: left;
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
+}
+
+#sobre {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color:#fefefe;
+  padding:12px;
+}
+
 
 
 .navbar-inverse {
@@ -118,12 +131,12 @@
       </div>
     </div>
 
-    <div id="map-canvas"></div>
-    <div class="container" style="position:absolute;left: 79px;top: 70px;">
+    
+    <div id="wrapper" class="container">
       
-
+      <div id="map-canvas"></div>
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
+      <div id="sobre" class="jumbotron">
         <h1>Hello, world!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>

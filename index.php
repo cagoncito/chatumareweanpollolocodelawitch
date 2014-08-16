@@ -14,9 +14,6 @@
     <!-- Bootstrap core CSS -->
  <link href="/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
-      html,body{
-        height:100%;
-        }
 
         #wrapper {
           width: 100%;

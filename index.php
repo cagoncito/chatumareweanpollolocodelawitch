@@ -170,5 +170,8 @@
         }   //TIMEOUT
       }
     </script>
+
+    <footer>
+    </footer>
   </body>
 </html>

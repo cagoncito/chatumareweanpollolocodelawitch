@@ -18,7 +18,7 @@
         height:100%;
         }
 
-        .container #map-canvas {
+        .container div #map-canvas {
           width:100%;
             height:100%;
         }

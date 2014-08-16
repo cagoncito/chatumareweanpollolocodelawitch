@@ -181,11 +181,13 @@
     </script>
 
     <footer>
-      <div id="footer">
-      <div class="container navbar-fixed-buttom">
-        <p class="muted credit">ejemplito 0 <a href="#"> ejemplito 1</a> and <a href="#">ejemplito 2</a>.</p>
+      <div class="navbar navbar-fixed-bottom">
+      <div class="container">
+      <div class="navbar-footer">
+        hola mundo ;) lumi mazamorrero
       </div>
-    </div>
+      </div>
+      </div>
     </footer>
   </body>
 </html>

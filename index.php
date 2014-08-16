@@ -37,6 +37,13 @@
 
  }
 
+ .navbar-header figure #logo{
+
+  border-right: 1px solid white;
+  margin-right: 0.5em;
+  
+ }
+
     </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

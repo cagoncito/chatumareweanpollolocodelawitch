@@ -44,11 +44,11 @@
 
  }
 
+ .navbar-header figure #logo img{
+  margin-right: 0.5em;
+  padding-right: 0.5em;
+  width: 25px;
 
- .img-logo {
-  padding: 0.1em 0.1em 2em 0.1em;
-  width: 180px;
-  height: 40px
  }
 
     </style>
@@ -67,7 +67,7 @@
       <div class="container">
         <div class="navbar-header">
           <figure id="logo">
-      <img src="logo.png"  class="img-responsive img-logo"  />
+      <img src="logo.png"  />
     </figure>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -104,7 +104,9 @@
       </div>
     </div>
 
-    <div id="map-canvas" class="container">
+    
+    <div class="container">
+      <div id="map-canvas"></div>
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron" style="z-index: 99;">

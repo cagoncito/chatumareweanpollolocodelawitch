@@ -24,6 +24,11 @@
       .navbar-static-top {
         margin-bottom: 19px;
       }
+      #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
     </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -84,6 +89,8 @@
         <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
       </div>
 
+      <div id="map_canvas"></div>
+
     </div> <!-- /container -->
 
 
@@ -92,5 +99,19 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script>
+      var map;
+      function initialize() {
+        var mapOptions = {
+          zoom: 8,
+          center: new google.maps.LatLng(-34.397, 150.644)
+        };
+        map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
   </body>
 </html>

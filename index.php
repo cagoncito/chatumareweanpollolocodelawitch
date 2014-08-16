@@ -20,8 +20,8 @@
 
         #map-canvas {
           background: transparent no-repeat 0 0;
-          width: 640px;
-          height: 480px;
+          width: 100%;
+          height: 100%;
           float: left;
           filter: alpha(opacity=40);
           -moz-opacity: 0.4;
@@ -116,9 +116,9 @@
       </div>
     </div>
 
-    
+    <div id="map-canvas"></div>
     <div class="container">
-      <div id="map-canvas"></div>
+      
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron" style="z-index: 99;">

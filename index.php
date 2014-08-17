@@ -148,6 +148,7 @@
     <script>
       function initialize() {
         getLocation(); 
+        set_current_location();
       }
       google.maps.event.addDomListener(window, 'load', initialize);
 
@@ -179,6 +180,31 @@
         } else {
         }   //TIMEOUT
       }
+
+      function set_current_location() {
+          if (navigator.geolocation) {
+              navigator.geolocation.getCurrentPosition(function (position) {
+                  /*
+                  var pos = new google.maps.LatLng(position.coords.latitude,
+                                                   position.coords.longitude);
+                  var myLat = position.coords.latitude;
+                  var myLong = position.coords.longitude;
+                  */
+                  add_location('My location', 
+                              position.coords.latitude, 
+                              position.coords.longitude);
+                              
+                  set_markers(new google.maps.LatLngBounds(), map);
+              }, function error(err) {
+                  console.log('error: ' + err.message);
+                  set_markers(new google.maps.LatLngBounds(), map);            
+              });
+          } else {
+              alert("Geolocation is not supported by this browser.");
+              //set_markers(new google.maps.LatLngBounds(), map);
+          }
+      }
+
     </script>
 
     <footer>

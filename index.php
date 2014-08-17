@@ -120,12 +120,12 @@
     </div>
 
     <div id="map-canvas"></div>
-    <div class="container" style="position:absolute;left: 79px;top: 70px;">
+    <div class="container" style="position:absolute;top: 70px;">
       
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-6 col-md-offset-4">
             <div class="alert alert-info fade in" role="alert">
               <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
               <h4>Oh snap! You got an error!</h4>
@@ -164,7 +164,7 @@
 
         var mapOptions = {
           center: latlng,
-          mapTypeControl: true,
+          mapTypeControl: false,
           zoom: 18
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
